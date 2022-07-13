@@ -1,6 +1,6 @@
 import json
 from flask import Flask
-from users.routes import app as users_app
+from apps.users.routes import app as users_app
 from flask_sqlalchemy import SQLAlchemy
 from sqlalchemy.dialects.postgresql import JSON
 from extensions import db, migrate
